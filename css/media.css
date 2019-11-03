@@ -1,0 +1,359 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* topbar starts */
+    .topbar_text{
+        text-align: center;
+    }  
+    .phone{
+        /* padding-right:119px; */
+        font-size: 18px;
+        text-align: center;
+    }
+    .info{
+        font-size: 18px;
+        text-align: center;
+    }
+    /* topbar ends */
+    /* header start */
+    .menu ul li a{
+        text-align: right;
+        }
+    /* header ends */
+    /* slider startsss */
+    .content{
+        text-align: center;
+    }
+    .content h4{
+        font-weight: 400;
+        font-size: .7rem !important;
+    }
+    .custom_h1{
+        font-size: 2rem !important;
+    }
+    .btn_custom{
+            width: 120px;
+            height: 35px;
+            margin-top: 20px;
+            font-size: 11px;
+            background: #05CBB8;    
+            border: none;
+            color: #fff;
+            transition: 0.5s;
+    }
+    button:focus {outline:0;}
+    /* slider endsss */
+     /* about us begins */
+     .aboutUs{
+        padding: 30px 0;
+    }
+    .top{
+        text-align: center;
+    }
+    
+    .top h1{
+        font-size: 30px;
+    }
+    .top h5{
+        font-size: 17px;
+    }
+    .middle{
+        padding-bottom: 15px;
+    }
+    /* about us endss */
+    /* projects begins */
+    .project{
+        padding: 30px 0;
+    }
+    .left_text{
+        text-align: center;
+        padding-bottom:20px;
+    }
+    .left_text h1{
+        font-size: 33px;
+        margin-bottom: 4px;
+    }
+    .left_text h5{
+        font-size: 19px;
+    } 
+    .left_text p{
+        padding-bottom: 0;
+    }   
+    .btn_custom1{
+        width: 185px;
+        height: 52px;
+        font-size: 15px; 
+    }
+    .project img{
+        padding-bottom: 20px;
+        display: block;
+        margin: 0 auto;
+    }
+    /* projects ends */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* topbar starts */
+    .topbar_text{
+        text-align: center;
+    }  
+    .phone{
+        float: left;
+        padding-right:100px;
+        font-size: 18px;
+        border-right: 1px solid #898989;
+    }
+    .info{
+        float: right;
+        font-size: 18px;
+    }
+    /* topbar ends */
+    /* header start */
+    .menu ul li a{
+        text-align: right;
+        }
+    /* header ends */
+    /* slider starts */
+    .slider_content{
+        padding: 130px 0;
+    }
+    .slider_content h4{
+        font-weight: 400;
+        font-size: 1rem !important;
+    }
+    .custom_h1{
+        font-size: 2.5rem !important;
+    }
+    .btn_custom{
+            width: 150px;
+            height: 45px;
+            margin-top: 20px;
+            font-size: 14px;    
+    }
+    /* slider ends */
+     /* about us begins */
+    .aboutUs{
+        padding: 40px 0;
+    }
+    .middle{
+        padding-bottom: 20px;
+    }
+    /* about us endss */
+    /* projects begins */
+    .project{
+        padding: 40px 0;
+    }
+    .left_text{
+        padding-bottom: 25px;
+    }
+    .left_text h1{
+        margin-bottom: 4px;
+    }
+    .left_text h5{
+        font-size: 19px;
+    } 
+    .left_text p{}   
+    .btn_custom1{
+        width: 185px;
+        height: 52px;
+        margin-top: 17px;
+        font-size: 15px; 
+    }
+    .project img{
+        padding-bottom: 20px;
+    }
+    /* projects ends */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* topbar starts */
+    .phone{
+        float: left;
+        padding-right:35px;
+        font-size: 18px;
+        border-right: 1px solid #898989;
+    }
+    .info{
+        float: right;
+        font-size: 18px;
+    }
+    /* topbar ends */
+    /* header start */
+    .menu ul li a{
+        text-align: right;
+        }
+    /* header ends */
+    /* slider starts */
+    .slider_content{
+        padding: 150px 0;
+    }
+    .slider_content h4{
+        font-weight: 400;
+        font-size: 1.2rem !important;
+    }
+    .custom_h1{
+        font-size: 3rem !important;
+    }
+    .btn_custom{
+        width: 180px;
+        height: 53px;
+        margin-top: 20px;
+        font-size: 15px;    
+    }
+    /* slider ends */
+    /* about us begins */
+    .aboutUs{
+        padding: 50px 0;
+    }
+    .middle{
+        padding-bottom: 25px;
+    }
+    /* about us endss */
+    /* projects begins */
+    .project{
+        padding: 50px 0;
+    }
+    .left_text{
+        padding-bottom: 30px;
+    }
+    .left_text h1{
+        margin-bottom: 4px;
+    }
+    .left_text h5{
+        font-size: 19px;
+    } 
+    .left_text p{}   
+    .btn_custom1{
+        width: 185px;
+        height: 52px;
+        margin-top: 12px;
+        font-size: 15px; 
+    }
+    /* projects ends */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+        /* topbar starts */
+        .phone{
+            float: left;
+            padding-right:88px;
+            font-size: 18px;
+            border-right: 1px solid #898989;
+        }
+        .info{
+            float: right;
+            font-size: 18px;
+        }
+        /* topbar ends */
+        /* slider starts */
+        .slider_content{
+            padding: 180px 0;
+        }
+        .slider_content h4{
+            font-weight: 400;
+            font-size: 1.4rem !important;
+        }
+        .custom_h1{
+            font-size: 3.5rem !important;
+        }
+        .btn_custom{
+            width: 210px;
+            height: 62px;
+            margin-top: 20px;
+            font-size: 16px;    
+        }
+        /* slider ends */
+        /* about us begins */
+        .aboutUs{
+            padding: 80px 0;
+        }
+        .middle{
+            padding-bottom: 40px;
+        }
+        /* about us endss */
+         /* projects begins */
+        .left_text{
+            padding-bottom: 30px;
+        }
+        .left_text h1{
+            margin-bottom: 4px;
+        }
+        .left_text h5{
+            font-size: 19px;
+        } 
+        .left_text p{}   
+        .btn_custom1{
+            width: 230px;
+            height: 52px;
+            margin-top: 17px;
+            font-size: 16px; 
+        }
+        /* projects ends */
+        .project{
+            padding: 60px 0;
+        }
+    }
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* topbar starts */
+    .phone{
+        float: left;
+        padding-right:120px;
+        font-size: 21px;
+        border-right: 1px solid #898989;
+    }
+    .info{
+        float: right;
+        font-size: 21px;
+    }
+    /* topbar ends */
+       /* slider starts */
+    .slider_content{
+        padding: 210px 0;
+    }
+    .slider_content h4{
+        font-weight: 400;
+        font-size: 1.6rem !important;
+    }
+    .custom_h1{
+        font-size: 4.5rem !important;
+    }
+    .btn_custom{
+        width: 240px;
+        height: 70px;
+        margin-top: 20px;
+        font-size: 17px;    
+    }
+    /* slider ends */
+    /* about us begins */
+    .aboutUs{
+        padding: 100px 0;
+    }
+    .middle{
+        padding-bottom: 50px;
+    }
+    /* about us endss */
+    /* projects begins */
+    .project{
+        padding: 70px 0;
+    }
+    .left_text{}
+    .left_text h1{
+        margin-bottom: 4px;
+    }
+    .left_text h5{
+        font-size: 19px;
+    } 
+    .left_text p{}   
+    .btn_custom1{
+        width: 240px;
+        height: 55px;
+        margin-top: 20px;
+        font-size: 17px; 
+    }
+    /* projects ends */
+}
